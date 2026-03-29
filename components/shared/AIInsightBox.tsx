@@ -92,7 +92,7 @@ export default function AIInsightBox({
           className="flex items-center gap-1.5 text-sm text-slate-400 hover:text-gold-400 transition-colors disabled:opacity-50"
         >
           <RefreshCw className={`w-4 h-4 ${isLoading ? "animate-spin" : ""}`} />
-          {isLoading ? "Analysing..." : "Regenerate"}
+          {isLoading ? "Analyzing..." : "Regenerate"}
         </button>
       </div>
 
