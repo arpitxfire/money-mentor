@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-navy-950: #020B18;
+  --color-navy-900: #071428;
+  --color-navy-800: #0D2040;
+  --color-navy-700: #1A3360;
+  --color-gold-400: #F5C842;
+  --color-gold-500: #D4A017;
+  --color-emerald-400: #34D399;
+  --color-red-400: #F87171;
+  --color-slate-300: #CBD5E1;
+  --color-slate-500: #64748B;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #020B18;
+  color: #CBD5E1;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #071428;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A3360;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F5C842;
+}
+
+/* Card style */
+.card {
+  background-color: #0D2040;
+  border: 1px solid #1A3360;
+  border-top: 2px solid #F5C842;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+}
+
+/* Gold accent line */
+.gold-border-top {
+  border-top: 2px solid #F5C842;
+}
